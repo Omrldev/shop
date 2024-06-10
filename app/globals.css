@@ -10,11 +10,16 @@
 }
 
 @layer components {
-  .header-wrapper {
-    @apply w-full bg-white
+  .header {
+    @apply absolute w-full bg-white
   }
   
-  .header-container {
+  .header-wrapper {
     @apply max-w-7xl mx-auto flex justify-between items-center px-2 py-3
   }
+
+  .hero-wrapper {
+    @apply max-w-7xl px-2 min-h-screen py-20
+  }
+
 }
