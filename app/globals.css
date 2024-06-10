@@ -2,3 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+@layer components {
+  .header-wrapper {
+    @apply w-full bg-white
+  }
+  
+  .header-container {
+    @apply max-w-7xl mx-auto flex justify-between items-center px-2 py-3
+  }
+}
