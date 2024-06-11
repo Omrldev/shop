@@ -20,10 +20,8 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Header />
-        <main className={`${rubik.className} relative`}>
-          {children}
-        </main>    
-        <Footer />  
+        <main className={`${rubik.className} relative`}>{children}</main>
+        <Footer />
       </body>
     </html>
   );

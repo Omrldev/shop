@@ -5,14 +5,14 @@ import { IoMenuOutline } from "react-icons/io5";
 
 const Header = () => {
   return (
-    <header id="home" className="header">
-      <div className="header-wrapper">
-        <Link href={"/"}>Store.logo</Link>
-        <nav className="max-lg:hidden">
-          <NavItems />
-        </nav>
-        <IoMenuOutline className="cursor-pointer"></IoMenuOutline>
-      </div>
+    <header id="home" className="header-wrapper">
+      <nav className="nav-wrapper">
+        <Link href={"/"} className="">Store.logo</Link>
+
+        <NavItems />
+
+        <IoMenuOutline className="cursor-pointer lg:hidden"></IoMenuOutline>
+      </nav>
     </header>
   );
 };
