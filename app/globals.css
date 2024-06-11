@@ -11,7 +11,7 @@
 
 @layer components {
   .header-wrapper {
-    @apply absolute w-full bg-white
+    @apply absolute z-10 w-full bg-white
   }
   
   .nav-wrapper {
@@ -19,7 +19,19 @@
   }
 
   .hero-wrapper {
-    @apply max-w-7xl mx-auto min-h-screen px-2 py-20
+    @apply max-w-7xl mx-auto min-h-screen px-2 py-16
+  }
+
+  .hero-text {
+    @apply text-indigo-300 font-semibold
+  }
+  
+  .hero-title {
+    @apply
+  }
+
+  .hero-subtext {
+    @apply text-indigo-300 font-bold inline-block mt-5
   }
 
   .btn-indigo {
