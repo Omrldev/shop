@@ -5,7 +5,7 @@ import { IoMenuOutline } from "react-icons/io5";
 
 const Header = () => {
   return (
-    <header id="home" className="header-wrapper border-b">
+    <header id="home" className="header-wrapper">
       <nav className="nav-wrapper">
         <Link href={"/"} className="">Store.logo</Link>
 
