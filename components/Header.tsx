@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header id="home" className="header-wrapper">
       <nav className="nav-wrapper">
-        <Link href={"/"} className="">Store.logo</Link>
+        <Link href={"/"}>Store.logo</Link>
 
         <NavItems />
 

@@ -11,7 +11,7 @@
 
 @layer components {
   .header-wrapper {
-    @apply w-full bg-white
+    @apply w-full absolute z-10
   }
   
   .nav-wrapper {
@@ -19,7 +19,7 @@
   }
 
   .hero-wrapper {
-    @apply max-w-7xl mx-auto min-h-screen px-2 py-16 flex
+    @apply max-w-7xl mx-auto min-h-screen px-2 flex
   }
 
   .hero-text {
