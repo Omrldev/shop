@@ -11,11 +11,15 @@
 
 @layer components {
   .header-wrapper {
-    @apply w-full absolute z-10
+    @apply absolute z-10 w-full py-3
+  }
+
+  .max-container {
+    @apply max-w-7xl mx-auto m-0
   }
   
   .nav-wrapper {
-    @apply max-w-7xl mx-auto flex justify-between items-center px-2 py-3
+    @apply flex justify-between items-center max-container px-2 xl:px-2
   }
 
   .hero-wrapper {
@@ -40,7 +44,7 @@
 
 
   .btn-indigo {
-    @apply bg-indigo-300 rounded-full mt-10
+    @apply bg-indigo-300 rounded-full
   }
 
 }

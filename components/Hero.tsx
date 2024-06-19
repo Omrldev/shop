@@ -1,33 +1,45 @@
+"use client";
+
+import Image from "next/image";
 import Button from "./Button";
 import Stadistics from "./Stadistics";
-import Image from "next/image";
+import bigshoe1 from "../public/assets/images/bigshoe1.png";
+import ShoeCard from "./ShoeCard";
 
 const Hero = () => {
+
   return (
-    <section id="home" className="w-full max-w-7xl mx-auto relative min-h-screen flex">
-      <div className="border-4 py-16 px-2">
-        <p className="">Nuestra colección de verano</p>
-        <h1 className="">
-          <span className="">Lo último running-3D</span>
-          <br />
-          <span className="">street&nbsp;</span>
-          style
-        </h1>
-        <p className="">
-          Únete al club y gana 500 puntos para gastarlos en recompesas.
+    <section className="min-h-screen w-full xl:flex max-container">
+      <div className="py-16 px-2 xl:w-2/5">
+        <p className="text-indigo-400 text-lg font-semibold">
+          Convierte la presión en progresión.
         </p>
-        <Button type="button" title="Shop now" variant="btn-indigo" />
+        <h1 className="capitalize text-7xl font-bold mt-7 relative z-10">
+          <span className="xl:whitespace-nowrap xl:bg-white">
+            Lo último Running
+          </span>
+          <br />
+          <span className="text-indigo-400">street </span>style
+        </h1>
+        <p className="text-gray-500 text-lg sm:max-w-xs mt-7">
+          Únete al club y gana puntos para gastarlos en recompensas.
+        </p>
+
+        <Button type="button" title="Comprar" variant="btn-indigo" />
+
         <Stadistics />
       </div>
 
-      <div className="border-4 bg-hero bg-cover min-h-screen w-full relative">
+      <div className="bg-hero bg-cover xl:min-h-screen bg-center flex justify-center items-center flex-1">
         <Image
-          src={"/assets/images/bigshoered.png"}
-          alt="bigshoegray"
-          width={810}
-          height={700}
-          className="object-contain"
+          src={bigshoe1}
+          alt="big shoe red"
+          width={610}
+          height={500}
+          className="object-contain relative z-50"
         />
+
+        <ShoeCard />
       </div>
     </section>
   );

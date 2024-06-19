@@ -10,7 +10,7 @@ const config: Config = {
     extend: {
       backgroundImage: {
         'hero': "url('/assets/images/bg-custom.svg')",
-        'big-shoe-red': "url('/assets/images/bgshoere.png)"
+        'card': "url('/assets/images/miniatura-bg.svg')",
       },
     },
   },
