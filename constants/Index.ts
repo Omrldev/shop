@@ -18,3 +18,9 @@ export const shoes = [
     { miniatura: "/assets/images/miniaturashoe3.svg", bigShoe: '/assets/images/bigshoe3.png'}
 ]
 
+export const products = [
+    { imgURL: '/assets/images/shoe4.svg', name: 'Nike Air J1', price: '129,99 €'},
+    { imgURL: '/assets/images/shoe5.svg', name: 'Nike Air J2', price: '159,99 €'},
+    { imgURL: '/assets/images/shoe6.svg', name: 'Nike Air J3', price: '179,99 €'},
+    { imgURL: '/assets/images/shoe7.svg', name: 'Nike Air J4', price: '199,99 €'}
+]

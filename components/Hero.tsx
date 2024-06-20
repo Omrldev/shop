@@ -7,9 +7,11 @@ import bigshoe1 from "../public/assets/images/bigshoe1.png";
 import ShoeCard from "./ShoeCard";
 
 const Hero = () => {
-
   return (
-    <section className="min-h-screen w-full xl:flex max-container">
+    <section
+      id="home"
+      className="min-h-screen border-4 w-full xl:flex max-container"
+    >
       <div className="py-16 px-2 xl:w-2/5">
         <p className="text-indigo-400 text-lg font-semibold">
           Convierte la presión en progresión.
@@ -30,7 +32,7 @@ const Hero = () => {
         <Stadistics />
       </div>
 
-      <div className="bg-hero bg-cover xl:min-h-screen bg-center flex justify-center items-center flex-1">
+      <div className="bg-hero bg-cover xl:min-h-screen border-4 bg-center flex justify-center items-center flex-1 relative">
         <Image
           src={bigshoe1}
           alt="big shoe red"
@@ -39,7 +41,9 @@ const Hero = () => {
           className="object-contain relative z-50"
         />
 
-        <ShoeCard />
+        <div className="justify-self-center">
+          <ShoeCard />
+        </div>
       </div>
     </section>
   );
