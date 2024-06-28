@@ -11,6 +11,9 @@ const config: Config = {
       backgroundImage: {
         'hero': "url('/assets/images/bg-custom.svg')",
         'card': "url('/assets/images/miniatura-bg.svg')",
+        'img-1': "url('/assets/images/shoe4.jpg')",
+        'img-2': "url('/assets/images/shoe5.jpg')",
+        'img-3': "url('/assets/images/shoe6.jpg')"
       },
     },
   },
