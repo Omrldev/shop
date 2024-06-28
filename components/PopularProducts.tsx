@@ -5,7 +5,7 @@ const PopularProducts = () => {
   return (
     <section id="products" className="max-container min-h-screen py-28">
       <div className="px-2">
-        <h2 className="text-4xl font-bold">
+        <h2 className="text-5xl lg:text-7xl font-bold">
           ¡<span className="text-indigo-400">Super</span>ventas!
         </h2>
         <p className="mt-3 text-lg leading-normal max-w-sm md:max-w-lg">

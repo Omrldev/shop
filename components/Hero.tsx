@@ -1,12 +1,16 @@
 "use client";
 
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import Button from "./Button";
 import Stadistics from "./Stadistics";
-import bigshoe1 from "../public/assets/images/bigshoe1.png";
+import bigShoe1 from "../public/assets/images/bigshoe1.png";
 import ShoeCard from "./ShoeCard";
+import { SetStateAction, useState } from "react";
+import { shoes } from "@/constants/Index";
 
 const Hero = () => {
+  const [bigShoe, setBigShoe] = useState(bigShoe1);
+
   return (
     <section id="home" className="min-h-screen w-full xl:flex max-container">
       <div className="py-16 px-2 xl:w-2/5">
@@ -31,15 +35,21 @@ const Hero = () => {
 
       <div className="bg-hero bg-cover xl:min-h-screen bg-center flex justify-center items-center flex-1 relative">
         <Image
-          src={bigshoe1}
+          src={bigShoe}
           alt="big shoe red"
           width={610}
           height={500}
           className="object-contain relative z-50"
         />
 
-        <div className="justify-self-center">
-          <ShoeCard />
+        <div className="hidden sm:flex gap-4 lg:gap-2 absolute -bottom-10">
+          {shoes.map((shoe) => (
+            <ShoeCard
+              imgURL={shoe}
+              changeBigShoe={(shoe) => setBigShoe(shoe)}
+              bigShoe={bigShoe}
+            />
+          ))}
         </div>
       </div>
     </section>
