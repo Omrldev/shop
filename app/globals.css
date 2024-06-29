@@ -15,7 +15,7 @@
   }
 
   .max-container {
-    @apply max-w-7xl mx-auto m-0
+    @apply max-w-7xl w-full mx-auto m-0
   }
   
   .nav-wrapper {
@@ -42,9 +42,13 @@
     @apply text-indigo-300 font-bold inline-block mt-5
   }
 
+  .info-text {
+    @apply text-gray-600 leading-normal text-lg
+  }
 
+  /* variant */
   .btn-indigo {
-    @apply bg-indigo-300 rounded-full
+    @apply bg-indigo-500 rounded-full
   }
 
 }

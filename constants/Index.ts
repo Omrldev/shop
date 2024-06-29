@@ -1,7 +1,7 @@
 
 export const headerLinks = [
     { route: '#home', label: 'Inicio'},
-    { route: '#aboute', label: 'Nosotros'},
+    { route: '#about', label: 'Nosotros'},
     { route: '#products', label: 'Productos'},
     { route: '#contact', label: 'Contacto'}
 ]
@@ -23,4 +23,22 @@ export const products = [
     { imgURL: '/assets/images/shoe5.svg', name: 'Nike Air Force 1 Low J2', price: '159,99 €'},
     { imgURL: '/assets/images/shoe6.svg', name: 'Nike Air Force 1 Low J3', price: '179,99 €'},
     { imgURL: '/assets/images/shoe7.svg', name: 'Nike Air Force 1 Low J4', price: '199,99 €'}
+]
+
+export const services = [
+    { 
+        icon:'/assets/icons/truck.svg', 
+        label: 'Envio Gratuito', 
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+    },
+    { 
+        icon:'/assets/icons/pay.svg', 
+        label: 'Pago seguro', 
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+    },
+    { 
+        icon:'/assets/icons/help.svg', 
+        label: 'Servicio al Cliente', 
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+    }
 ]

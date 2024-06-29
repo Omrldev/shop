@@ -15,7 +15,7 @@ const Button = ({ type, title, icon, variant }: BtnProps) => {
       {title}
       
       <HiOutlineArrowLongRight
-        className="ml-3 rounded-full bg-white text-indigo-300"
+        className="ml-3 rounded-full bg-white text-indigo-500"
         size={22}
       ></HiOutlineArrowLongRight>
     </button>
