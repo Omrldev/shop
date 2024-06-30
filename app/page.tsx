@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import PopularProducts from "@/components/PopularProducts";
 import QualityProducts from "@/components/QualityProducts";
 import Services from "@/components/Services";
+import Subscribe from "@/components/Subscribe";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <QualityProducts />
       <Services />
       <CustomerReviews />
+      <Subscribe />
     </>
   );
 }

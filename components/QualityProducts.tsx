@@ -6,9 +6,9 @@ const QualityProducts = () => {
   return (
     <section
       id="about"
-      className="max-container min-h-screen -mb-40"
+      className="max-container"
     >
-      <div className="px-2 min-h-screen md:flex">
+      <div className="px-2 md:flex">
         <div className="lg:w-2/5">
           <h2 className="text-5xl font-semibold capitalize">
             Contamos con productos de{" "}
@@ -27,7 +27,7 @@ const QualityProducts = () => {
           <Button type="button" title="Detalles" variant="btn-indigo" />
         </div>
 
-        <div className="flex flex-1 justify-center items-start max-w-[890px] h-[650px] mt-7">
+        <div className="flex flex-1 justify-center items-start max-w-[890px] h-[450px] mt-7">
             <Image src={shoe8} alt="shoe8" width={650} height={520} className="rounded-xl object-contain"/>
         </div>
       </div>

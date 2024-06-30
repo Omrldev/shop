@@ -3,7 +3,7 @@ import PopularProductCard from "./PopularProductCard";
 
 const PopularProducts = () => {
   return (
-    <section id="products" className="max-container py-10">
+    <section id="products" className="max-container py-16">
       <div className="px-2">
         <h2 className="text-5xl lg:text-7xl font-bold">
           ¡<span className="text-indigo-400">Super</span>ventas!
