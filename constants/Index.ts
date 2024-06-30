@@ -42,3 +42,16 @@ export const services = [
         text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
     }
 ]
+
+export const reviews = [
+    {
+        img: '/assets/images/person1.svg',
+        subtext: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        title: 'Person One'
+    },
+    {
+        img: '/assets/images/person2.svg',
+        subtext: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        title: 'Person Two'
+    }
+]

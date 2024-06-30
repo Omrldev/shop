@@ -8,9 +8,9 @@ type ServiceCardProp = {
 
 const ServiceCard = ({ icon, label, text }: ServiceCardProp) => {
   return (
-    <div className="flex-1 border rounded-xl shadow-xl p-3 w-full">
-      <div className="rounded-full size-8 bg-indigo-200 flex justify-center items-center mb-3">
-        <Image src={icon} alt="imagen" width={24} height={24} className="stroke-white"/>
+    <div className="flex-1 border rounded-xl shadow-xl p-3 w-full mb-3 bg-slate-50">
+      <div className="rounded-full w-10 h-10 bg-indigo-200 flex justify-center items-center mb-3">
+        <Image src={icon} alt="imagen" width={24} height={24} className="object-contain"/>
       </div>
 
       <h3 className="font-bold mt-2 text-indigo-500">{label}</h3>

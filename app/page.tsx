@@ -1,3 +1,4 @@
+import CustomerReviews from "@/components/CustomerReviews";
 import Hero from "@/components/Hero";
 import PopularProducts from "@/components/PopularProducts";
 import QualityProducts from "@/components/QualityProducts";
@@ -10,6 +11,7 @@ export default function Home() {
       <PopularProducts />
       <QualityProducts />
       <Services />
+      <CustomerReviews />
     </>
   );
 }
