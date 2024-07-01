@@ -9,13 +9,7 @@ type PopularProductsProps = {
 const PopularProductCard = ({ imgURL, name, price }: PopularProductsProps) => {
   return (
     <div className={`${imgURL} w-full min-h-96 min-w-96 flex-1 bg-no-repeat bg-cover`}>
-      {/* <Image
-        src={imgURL}
-        alt="products"
-        width={280}
-        height={280}
-        className="object-contain"
-      /> */}
+    
       <div className="px-2">
         <h3 className="mt-5 text-lg leading-normal font-semibold text-slate-50">
           {name}

@@ -14,7 +14,7 @@ const PopularProducts = () => {
         </p>
       </div>
 
-      <div className="flex mt-5 gap-2 hover:overflow-x-auto">
+      <div className="hide-scrollbar overflow-x-auto flex mt-5 gap-2">
         <PopularProductCard
           imgURL="bg-img-1"
           name="Nike Air Force 1 Low J1"

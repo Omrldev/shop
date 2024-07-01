@@ -55,3 +55,39 @@ export const reviews = [
         title: 'Person Two'
     }
 ]
+
+export const socialMedia = [
+    { img: '/assets/icons/facebook.svg', alt: 'facebook'},
+    { img: '/assets/icons/instagram.svg', alt: 'instagram'},
+    { img: '/assets/icons/twitter.svg', alt: 'twitter'}
+]
+
+export const footerLinks = [
+    { 
+        title: 'Products',
+        links: [
+            { name: 'Air Force 1'},
+            { name: 'Air Force 2'},
+            { name: 'Air Force 3'},
+            { name: 'Air Jordan 1'},
+            { name: 'Air Jordan 2'},
+            { name: 'Air Jordan 3'},
+        ]
+    },
+    {
+        title: 'Ayuda',
+        links: [
+            { name: 'Nosotros'},
+            { name: 'FAQs'},
+            { name: 'Privacy Policy'},
+            { name: 'Payment Policy'},
+        ]
+    },
+    {
+        title: 'Contacto',
+        links: [
+            { name: 'customer@company.com'},
+            { name: '+64987654321'}
+        ]
+    }
+]
