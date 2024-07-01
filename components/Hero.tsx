@@ -46,7 +46,7 @@ const Hero = () => {
           {shoes.map((shoe) => (
             <ShoeCard
               imgURL={shoe}
-              changeBigShoe={(shoe) => setBigShoe(shoe)}
+              changeBigShoe={(shoe: any) => setBigShoe(shoe)}
               bigShoe={bigShoe}
             />
           ))}
